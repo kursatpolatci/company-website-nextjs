@@ -1,0 +1,93 @@
+{
+    "navigation": {
+      "home": "Home",
+      "institutional": "Institutional",
+      "about": "About",
+      "certificates": "Certificates",
+      "technical": "Technical",
+      "products": "Products",
+      "catalog": "Catalog",
+      "news": "News",
+      "contact": "Contact"
+    },
+    "products": {
+        "p-1": "Ship and Yacht Cables",
+        "p-2": "PUR Cables",
+        "p-3": "Special Cables",
+        "p-4": "Solar Cables",
+        "p-5": "Coaxial Cables",
+        "p-6": "Instrument Cables",
+        "p-7": "Video and Audio Cables",
+        "p-8": "Halogen Free Cables",
+        "p-9": "Control Cables",
+        "p-10": "Auto Vehicle Cables",
+        "p-11": "Signal and Control Cables",
+        "p-12": "Data Communication Cables",
+        "p-13": "Fire Alarm and Communication Cables"
+    },
+    "footer": {
+      "address": "Organized Industrial Zone, 18th Street, No 21, Kayseri, Türkiye 38070",
+      "contact": "Contact",
+      "links": "Links",
+      "social": "Social Medias",
+      "rights": "Erişim Cable ©2020 All rights reserved.",
+      "navigation": {
+        "home": "Homepage",
+        "products": "Products",
+        "news": "News",
+        "about": "About",
+        "catalog": "Catalog",
+        "contact": "Contact"
+      }
+    },
+    "slider": {
+      "1-header": "SPECIAL TO YOUR NEEDS SOLUTIONS ERİŞİM CABLE WITH DIFFERENCE",
+      "2-header": "A JOURNEY WITHOUT LIMITS IN QUALITY",
+      "3-header": "CONNECT SECURELY, THE ADDRESS OF INNOVATION: ERİŞİM KABLO",
+      "4-header": "INNOVATION AND SECURITY ERİŞİM CABLE'S SIGNATURE",
+      "5-header": "TRUST IN CABLE IS IN EVERY INCH OF ERİŞİM CABLE",
+      "1-description": "Erişim Cable aims for excellence in each of its products with an understanding that pushes the limits in quality and strengthens it with a solid supply chain.",
+      "2-description": "Erişim Cable produces special solutions by taking into account the needs of our customers and makes a difference in the sector.",
+      "3-description": "Each cable touched with advanced technology and innovative approaches symbolizes the leadership of Erişim Kablo.",
+      "4-description": "Producing customized solutions to meet the unique needs of our customers, Erişim Kablo always aims to be one step ahead by maintaining its leading role in the industry.",
+      "5-description": "With innovative approaches, based on customer satisfaction and strictly adhering to ethical values, Erişim Kablo follows the latest technologies in the industry and constantly improves the quality of its products."
+    },
+    "about": {
+      "about-us": "About Us",
+      "erisim": "Erişim Cable",
+      "erisim-sort": "Erişim Kablo Sanayi ve Tic.Ltd.Şti was established in Istanbul in 2006 and continues its production activities in a closed area of approximately 6000 m2.",
+      "referances": "Your favorite companies are our partners.",
+      "p-1": "Our company has set itself the goal of quality and fast production with its qualified management staff, young, dynamic and professional knowledge of its employees, and in line with these targets, our company has been entitled to receive the ISO9001:2015 Quality Management System Certificate at its establishment.",
+      "p-2": "In order to continuously increase its effectiveness in domestic and international markets, our company has managed to advance its vision in a levelly manner by being entitled to receive Türk Loydu certificates in 2010, TSE certificates in 2011, RINA certificates in 2012, BV certificates in 2019 and Lloyd's Register certificates in 2023. It uses ROHS certified raw materials in its production, prioritizing clean environmental awareness and human health. Our R&D department works with an ever-expanding vision to define and resolve customer demands.",
+      "p-3": "As a result of these studies, the problems of many companies have been solved.",
+      "p-4": "By constantly following the technological developments in our changing world regarding our industry, we expand our production range day by day and aim to offer quality and economical products to our valued customers. Our principle is unconditional customer satisfaction.",
+      "p-5": "Regards...",
+      "mission": "Mission",
+      "vision": "Vision",
+      "mission-p": "Erişim Cable's mission is to be recognized as a reliable brand in the cable industry and to provide the highest level of service to its customers. Erişim Cable, which always prioritizes customer satisfaction, is committed to meeting the needs of its customers by producing quality products and with a solid supply chain. While the company works in a manner that respects ethical values, it adopts the principle of sustainability and applies environmentally friendly production processes. Erişim Kablo aims to constantly improve the quality of its products and exceed customer expectations by following the latest technologies in the industry.",
+      "vision-p": "Erişim Cable's vision is to achieve a leading position in the cable industry and provide high quality and innovative cable solutions to its customers. It aims to provide customized solutions for the needs of its customers by following the latest developments in the sector with production methods based on advanced technology. Erişim Kablo, with its customer-oriented approach, aims to constantly develop innovative products and keep quality standards at the highest level to ensure business continuity, increase efficiency and help its customers gain competitive advantage."
+    },
+    "technical": {
+      "p-1": "Letter Codes and Their Meanings",
+      "p-2": "Copper Conductor Structure",
+      "p-3": "iec 60228; Conductor Resistance Values According to En60228 AND VDE 0295",
+      "p-4": "Color Codes According to DIN Vde 0293",
+      "p-5": "Current Carrying Capacity of Flexible Cables",
+      "p-6": "Longest Distances That Can Be Carried Under Voltage Drop",
+      "p-7": "Coaxial Cable Electrical Properties",
+      "p-8": "Awg/ American Wire Gauge System (For Mono Copper Wires)",
+      "p-9": "Awg/ American Wire Gauge System (For Stranded Copper Wires)",
+      "p-10": "Insulation and Outer Sheath Materials Properties 1",
+      "p-11": "Insulation and Outer Sheath Materials Properties 2",
+      "p-12": "Size Change Table"
+    },
+    "contact": {
+      "email": "Email",
+      "email-p": "Contact us at",
+      "phone": "Phone",
+      "phone-p": "Reach out to us by phone",
+      "location": "Location",
+      "location-p": "Find us at our office"
+    }
+  }
+  

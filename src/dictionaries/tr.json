@@ -1,0 +1,92 @@
+{
+  "navigation": {
+    "home": "Anasayfa",
+    "institutional": "Kurumsal",
+    "about": "Hakkımızda",
+    "certificates": "Sertifikalar",
+    "technical": "Teknik Bilgiler",
+    "products": "Ürünler",
+    "catalog": "Katalog",
+    "news": "Haberler",
+    "contact": "İletişim"
+  },
+  "products": {
+      "p-1": "Gemi ve Yat Kabloları",
+      "p-2": "PUR Kabloları",
+      "p-3": "Özel Kablolar",
+      "p-4": "Solar Kablolar",
+      "p-5": "Coaxial Kablolar",
+      "p-6": "Enstrüman Kabloları",
+      "p-7": "Görüntü ve Ses Kabloları",
+      "p-8": "Halogen Free Kabloları",
+      "p-9": "Kumanda Kabloları",
+      "p-10": "Oto Taşıt Kabloları",
+      "p-11": "Sinyal ve Kontrol Kabloları",
+      "p-12": "Veri İletişim Kabloları",
+      "p-13": "Yangın Alarm ve Haberleşme Kabloları"
+  },
+  "footer": {
+    "address": "Organize Sanayi Bölgesi 18. Cadde No 21 Kayseri, TÜRKİYE 38070",
+    "contact": "İletişim",
+    "links": "Linkler",
+    "social": "Sosyal Medya",
+    "rights": "Erişim Kablo ©2020 Tüm haklar rezerve edildi.",
+    "navigation": {
+      "home": "Anasayfa",
+      "products": "Ürünler",
+      "news": "Haberler",
+      "about": "Hakkımızda",
+      "catalog": "Katalog",
+      "contact": "İletişim"
+    }
+  },
+    "slider": {
+      "1-header": "İHTİYACINIZA ÖZEL ÇÖZÜMLER ERİŞİM KABLO FARKIYLA",
+      "2-header": "KALİTEDE SINIR TANIMAYAN BİR YOLCULUK",
+      "3-header": "GÜVENLE BAĞLANIN, YENİLİĞİN ADRESİ: ERİŞİM KABLO",
+      "4-header": "İNOVASYON VE GÜVENLİK ERİŞİM KABLO'NUN İMZASI",
+      "5-header": "KABLODA GÜVEN ERİŞİM'İN HER BİR SANTİMİNDE",
+      "1-description": "Erişim Kablo, kalitede sınırları zorlayan bir anlayışla her bir ürününde mükemmelliği hedefler ve sağlam bir tedarik zinciriyle güçlendirir.",
+      "2-description": "Müşterilerimizin ihtiyaçlarını göz önünde bulundurarak özel çözümler üreten Erişim Kablo, sektörde fark yaratır",
+      "3-description": "İleri teknoloji ve yenilikçi yaklaşımlarla dokunulan her kablo, Erişim Kablo'nun liderliğini simgeler.",
+      "4-description": "Müşterilerimizin benzersiz ihtiyaçlarını karşılamak adına özelleştirilmiş çözümler üreten Erişim Kablo, sektördeki öncü rolünü sürdürerek her zaman bir adım önde olmayı hedefler.",
+      "5-description": "Yenilikçi yaklaşımlarla, müşteri memnuniyetini esas alarak ve etik değerlere sıkı sıkıya bağlı kalarak, Erişim Kablo sektördeki en son teknolojileri takip eder ve ürünlerinin kalitesini sürekli olarak iyileştirir."
+    },
+    "about": {
+      "about-us": "Hakkımızda",
+      "erisim": "Erişim Kablo",
+      "erisim-sort": "Erişim Kablo Sanayi ve Tic.Ltd.Şti 2006 yılında İstanbul’da kurulmuş olup yaklaşık 6000 m2 kapalı alanda üretim faaliyetlerini sürdürmeye devam etmektedir.",
+      "referances": "En sevdiğiniz şirketler ortaklarımızdır.",
+      "p-1": "Firmamız nitelikli yönetim kadrosu, çalışanların genç, dinamik ve profesyonel birikimi ile kaliteli ve hızlı üretimi kendine hedef belirlemiş ve bu hedefler doğrultusunda öncelikle ISO9001:2015 Kalite Yönetim Sistemi Belgesini firmamız kuruluşunda almayı hak kazanmıştır.",
+      "p-2": "Firmamız yurtiçi ve yurtdışı pazarlardaki etkinliğini sürekli arttırmak için 2010 yılında Türk Loydu, 2011 yılında TSE, 2012 yılında RINA ,2019 yılında BV,2023 yılında Lloyd’s Register belgelerini almaya hak kazanarak vizyonunu seviyeli bir şekilde ilerletmeyi başarmıştır. Temiz çevre bilinci ve insan sağlığını ön planda tutarak üretiminde ROHS sertifikalı hammaddeler kullanmaktadır. Müşteri taleplerinin tanımlanması ve çözümlenmesi için AR-GE departmanımız sürekli genişleyen bir vizyonla çalışmaktadır.",
+      "p-3": "Bu çalışmalar sonucu bir çok firmanın sorunları çözülmüştür.",
+      "p-4": "Sektörümüzle ilgili değişen dünyamızdaki teknolojik gelişmeleri sürekli takip ederek üretim yelpazemizi her geçen gün genişletmekte ve siz değerli müşterilerimize kaliteli ve ekonomik ürünler sunmayı hedeflemekteyiz. İlkemiz koşulsuz müşteri memnuniyetidir.",
+      "p-5": "Saygılarımızla...",
+      "mission": "Misyonumuz",
+      "vision": "Vizyonumuz",
+      "mission-p": "Erişim Kablo’nun misyonu, kablo sektöründe güvenilir bir marka olarak tanınmak ve müşterilerine en üst düzeyde hizmet sunmaktır. Müşteri memnuniyetini her zaman öncelikli olarak gören Erişim Kablo, kaliteli ürünler üreterek ve sağlam tedarik zinciriyle müşterilerinin ihtiyaçlarını karşılamayı taahhüt eder. Firma, etik değerlere saygılı bir şekilde çalışırken, sürdürülebilirlik ilkesini benimsemekte ve çevreye duyarlı üretim süreçleri uygulamaktadır. Erişim Kablo, sektördeki en son teknolojileri takip ederek, ürünlerinin kalitesini sürekli olarak iyileştirmeyi ve müşteri beklentilerini aşmayı amaçlamaktadır.",
+      "vision-p": "Erişim Kablo’nun vizyonu, kablo sektöründe lider bir konuma ulaşmak ve müşterilerine yüksek kaliteli ve yenilikçi kablo çözümleri sunmaktır. İleri teknolojiye dayalı üretim yöntemleriyle, sektördeki en son gelişmeleri takip ederek, müşterilerinin ihtiyaçlarına yönelik özelleştirilmiş çözümler sunmayı hedeflemektedir. Erişim Kablo, müşteri odaklı yaklaşımıyla, müşterilerinin iş sürekliliğini sağlamak, verimliliği artırmak ve rekabet avantajı elde etmelerine yardımcı olmak için sürekli olarak yenilikçi ürünler geliştirmeyi ve kalite standartlarını en üst düzeyde tutmayı amaçlamaktadır."
+    },
+    "technical": {
+      "p-1": "Harf Kodları ve Anlamları",
+      "p-2": "Bakır İletken Yapısı",
+      "p-3": "İec 60228; En60228 VE VDE 0295’e Göre İletken Direnç Değerleri",
+      "p-4": "Dın Vde 0293’e Göre Renk Kodları",
+      "p-5": "Esnek Kabloların Akım Taşıma Kapasitesi",
+      "p-6": "Gerilim Düşümünde Taşınabileceği En Uzun Mesafeler",
+      "p-7": "Coaxial Kablo Elektriksel Özellikleri",
+      "p-8": "Awg/ Amerikan Tel Ölçü Sistemi (Mono Bakır Teller İçin)",
+      "p-9": "Awg/ Amerikan Tel Ölçü Sistemi (Bükülü Bakır Teller İçin)",
+      "p-10": "Yalıtım ve Dış Kılıf Malzemleri Özellikleri 1",
+      "p-11": "Yalıtım ve Dış Kılıf Malzemleri Özellikleri 2",
+      "p-12": "Ölçü Değişim Tablosu"
+    },
+    "contact": {
+      "email": "Email",
+      "email-p": "Bize şu adresten ulaşın:",
+      "phone": "Telefon",
+      "phone-p": "Bize telefonla ulaşın",
+      "location": "Lokasyon",
+      "location-p": "Bizi ofisimizde bulun"
+    }
+}

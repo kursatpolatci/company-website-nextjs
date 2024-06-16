@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+header {
+    position: absolute;
+    top: 4px; left: 0; right: 0;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+    text-align: center;
+    padding: 0px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo {
+    width: 350px; 
+    height: auto; 
+    position: relative;
+}
+
+header .navbar ul {
+    position: relative;
+    list-style: none;
+}
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a {
+    font-size: 17px;
+    padding: 18px;
+    color: #fff;
+    display: block;
+}
+
+
+header .navbar ul li ul {
+    position: absolute;
+    left: 0;
+    height: auto;
+    width: auto;
+    background: rgba(32, 32, 32, 0.2);
+    backdrop-filter: blur(30px);
+    display: none;
+}
+
+header .navbar ul li ul li {
+    padding: 0px;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    font-size:medium;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+}
+
+header .navbar ul li ul li div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+header .navbar ul li ul li ul {
+    left: 200px;
+    top: 0;
+}
+
+header .navbar ul li:hover > ul {
+    display: initial;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    display: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.navigation-items::before {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+.navigation-items:hover::before {
+    width: 100%;
+}
+
+@media(max-width: 1550px) {
+
+    header {
+        padding: 10px;
+    }
+
+    header .logo {
+        width: 300px;
+    }
+
+    header .navbar ul li a{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 1450px) {
+
+    header {
+        padding: 10px;
+    }
+
+    header .logo {
+        width: 275px;
+    }
+
+    header .navbar ul li a{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 1350px) {
+
+    header {
+        padding: 10px;
+    }
+
+    header .logo {
+        width: 250px;
+    }
+
+    header .navbar ul li a{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 1200px) {
+    
+    header {
+        padding: 10px;
+    }
+
+    header .logo {
+        width: 250px;
+    }
+
+    header .navbar ul li a{
+        font-size: 14px;
+    }
+
+    header label {
+        display: initial
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: transparent;
+        backdrop-filter: blur(30px);
+        border-top: 1px solid rgba(0,0,0,0.1);
+        display: none;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+    }
+
+    header .navbar ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li {
+        background: transparent;
+        backdrop-filter: blur(30px);
+    }
+    
+    header .navbar ul li ul li a{
+        font-size: 10px;
+    }
+
+    header .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar {
+        display: initial;
+    }
+}
+
+
+@media(max-width: 1024px) {
+    
+    header {
+        padding: 10px;
+    }
+
+    header .logo {
+        width: 250px;
+    }
+
+    header .navbar ul li a{
+        font-size: 10px;
+    }
+
+    header label {
+        display: initial
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: transparent;
+        backdrop-filter: blur(30px);
+        border-top: 1px solid rgba(0,0,0,0.1);
+        display: none;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+    }
+
+    header .navbar ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li {
+        background: transparent;
+        backdrop-filter: blur(30px);
+    }
+
+    header .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar {
+        display: initial;
+    }
+}
+
+@media(max-width: 768px) {
+    
+    header {
+        padding: 10px;
+    }
+
+    header .logo {
+        width: 250px;
+    }
+
+    header .navbar ul li a{
+        font-size: 10px;
+    }
+
+    header label {
+        display: initial
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: transparent;
+        backdrop-filter: blur(30px);
+        border-top: 1px solid rgba(0,0,0,0.1);
+        display: none;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+    }
+
+    header .navbar ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li {
+        background: transparent;
+        backdrop-filter: blur(30px);
+    }
+
+    header .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar {
+        display: initial;
+    }
+}
+
+@media(max-width: 480px) {
+    
+    header {
+        padding: 10px;
+    }
+
+    header .logo {
+        width: 250px;
+    }
+
+    header .navbar ul li a{
+        font-size: 10px;
+    }
+
+    header label {
+        display: initial
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: transparent;
+        backdrop-filter: blur(30px);
+        border-top: 1px solid rgba(0,0,0,0.1);
+        display: none;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+    }
+
+    header .navbar ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li {
+        background: transparent;
+        backdrop-filter: blur(30px);
+    }
+
+    header .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar {
+        display: initial;
+    }
+}

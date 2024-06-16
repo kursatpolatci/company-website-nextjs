@@ -1,0 +1,171 @@
+footer {
+    width: 100%;
+    bottom: 0;
+    background-color: #333333;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 30px 0px 30px;
+    line-height: 25px;
+}
+
+.footer-r {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 60px;
+}
+
+.footer-des {
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.footer-des:nth-child(2),
+.footer-des:nth-child(3) {
+    flex-basis: 15%;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+.location{
+    font-size: 14px;
+}
+.communication{
+    font-size: 14px;
+}
+
+.footer-des h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+   
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons {
+    display: grid;
+        grid-template-columns: repeat(2, 5em);
+        gap: 10px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    color: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons .fc:hover {
+    color: #3b5999;
+}
+
+.social-icons .tw:hover {
+    color: black;
+
+}
+
+.social-icons .wp:hover {
+    color: #4dc247;
+
+}
+
+.social-icons .li:hover {
+    color: #004cff;
+
+}
+
+.social-icons .in:hover {
+    color: #e4405f;
+}
+
+hr {
+    border: 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+    padding-top: 15px;
+}
+
+.copyright {
+    text-align: center;
+    position: relative;
+    top: 20px;
+
+}
+
+.underline {
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+
+}
+
+.underline span {
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving {
+    0% {
+        left: -20px;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer {
+        bottom: unset;
+    }
+
+    .footer-des {
+        flex-basis: 100%;
+    }
+
+    .footer-des:nth-child(2),
+    .footer-des:nth-child(3) {
+        flex-basis: 100%;
+    }
+}
