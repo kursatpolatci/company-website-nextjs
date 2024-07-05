@@ -5,6 +5,7 @@ import "@/styles/globals.css";
 import { Locale , i18n} from '@/i18n.config'
 
 import Navbar from "@/components/Navbar";
+import Whatsapp from "@/components/Whatsapp";
 
 export const metadata: Metadata = {
   title: "Erişim Kablo",
@@ -28,6 +29,7 @@ export default function RootLayout(
       <body>
         <Navbar lang={params.lang}/>
         <main>{children}</main>
+        <Whatsapp />
       </body>
     </html>
   );

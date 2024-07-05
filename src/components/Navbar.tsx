@@ -13,7 +13,7 @@ export default async function Navbar ( { lang } : { lang : Locale }) {
   const { navigation, products} = await getDictionary(lang);
   return (
     <header>
-    <Link href="/" className="logo"><img src="https://reliable-nurture-8d69d86d25.media.strapiapp.com/Erisim_01_20a72c363e.png" alt="" width={'350px'} height={"auto"}></img></Link>
+    <Link href="/" className="logo"><img src="https://innovative-confidence-c13676fd50.media.strapiapp.com/erisim_logo_f9cce6c0d5.png" alt="" width={'350px'} height={"auto"}></img></Link>
 
     <input type="checkbox" id="menu-bar"></input>
     <label htmlFor="menu-bar">Menu</label>

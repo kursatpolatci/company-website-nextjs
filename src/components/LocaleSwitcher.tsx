@@ -26,9 +26,9 @@ export default function LocaleSwitcher() {
           <div key={locale} >
             <Link href={redirectedPathName(locale)}>
               { locale === "en" ? 
-              <img src='https://reliable-nurture-8d69d86d25.media.strapiapp.com/uk_f1fc1c0fb6.png' alt='' width={'30px'} height={'auto'} /> : 
-                locale === "tr" ? <img src='https://reliable-nurture-8d69d86d25.media.strapiapp.com/tr_3e91ac3cc2.png' alt='' width={'30px'} height={'auto'} /> : 
-              <img src='https://reliable-nurture-8d69d86d25.media.strapiapp.com/sa_2cd3416985.png' alt='' width={'30px'} height={'auto'} /> }
+              <img src='https://innovative-confidence-c13676fd50.media.strapiapp.com/uk_bec82cc0d7.png' alt='' width={'30px'} height={'auto'} /> : 
+                locale === "tr" ? <img src='https://innovative-confidence-c13676fd50.media.strapiapp.com/tr_f1473c46d7.png' alt='' width={'30px'} height={'auto'} /> : 
+              <img src='https://innovative-confidence-c13676fd50.media.strapiapp.com/sa_74b5e36ae5.png' alt='' width={'30px'} height={'auto'} /> }
             </Link>
           </div>
         )

@@ -28,7 +28,7 @@ export default async function Contact ( { lang } : { lang : Locale }) {
                             </span>
                             <p className="text-2xl font-extrabold text-dark-grey-900">{contact.email}</p>
                             <p className="text-base leading-7 text-dark-grey-600">{contact['email-p']}</p>
-                            <a className="text-lg font-bold text-brandColor" href = "mailto: hello@loopple.com">kablo@erişim.com.tr</a>
+                            <a className="text-lg font-bold text-brandColor" href = "mailto: hello@loopple.com">info@erisimkablo.com.tr</a>
                             </div>
                             <div className="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
                             <span>
@@ -38,7 +38,7 @@ export default async function Contact ( { lang } : { lang : Locale }) {
                             </span>
                             <p className="text-2xl font-extrabold text-dark-grey-900">{contact.phone}</p>
                             <p className="text-base leading-7 text-dark-grey-600">{contact['phone-p']}</p>
-                            <a className="text-lg font-bold text-brandColor" href="tel:+516-486-5135">+516-486-5135</a>
+                            <a className="text-lg font-bold text-brandColor" href="tel:+516-486-5135">+90 (212) 549 27 23</a>
                             </div>
                             <div className="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
                             <span>
@@ -48,7 +48,7 @@ export default async function Contact ( { lang } : { lang : Locale }) {
                             </span>
                             <p className="text-2xl font-extrabold text-dark-grey-900">{contact.location}</p>
                             <p className="text-base leading-7 text-dark-grey-600">{contact['location-p']}</p>
-                            <a className="text-lg font-bold text-brandColor" target="_blank" href="https://goo.gl/maps/QcWzYETAh4FS3KTD7">10924 Urna Convallis</a>
+                            <a className="text-lg font-bold text-brandColor" target="_blank" href="https://www.google.com/maps?ll=41.201372,28.726937&z=11&t=m&hl=tr&gl=TR&mapclient=embed&cid=362919905323109149">Arnavutköy/İstanbul</a>
                             </div>
                         </div>
                     </div>

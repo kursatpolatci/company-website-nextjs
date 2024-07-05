@@ -6,7 +6,7 @@ export default function HeaderBackground ( { text } : { text : string }) {
         <div
           className="absolute top-0 left-0 w-full h-full"
           style={{ 
-            backgroundImage: `url(${'https://reliable-nurture-8d69d86d25.media.strapiapp.com/newbg_5b1339b5d3.png'})`,  
+            backgroundImage: `url(${'https://innovative-confidence-c13676fd50.media.strapiapp.com/header_background_8ef307c94b.png'})`,  
             backgroundPosition: 'center', 
             backgroundAttachment: 'fixed',
             backgroundRepeat: 'no-repeat',

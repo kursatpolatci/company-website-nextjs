@@ -6,8 +6,8 @@ export default function Page(
 ) {
 
     return (
-    <div className=" absolute z-50">
-        <iframe src="https://online.publuu.com/547980/1232262/page/1?embed" className=" w-screen h-screen"  allow="clipboard-write" ></iframe>
+    <div className=" absolute z-50 w-screen h-screen flex items-center">
+        <iframe src="https://heyzine.com/flip-book/598733d15a.html" className=" w-screen h-screen"  allow="clipboard-write" ></iframe>
     </div>
     )
 }

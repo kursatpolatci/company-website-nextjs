@@ -10,7 +10,7 @@ import '@/styles/Products.css'
 export default async function Products(
     { lang, product_type }: { lang: Locale, product_type: string }) {
 
-  const res = await fetch(`http://reliable-nurture-8d69d86d25.strapiapp.com/api/products?locale=${lang}&populate=*&sort=publishedAt:asc`);
+  const res = await fetch(`http://innovative-confidence-c13676fd50.strapiapp.com/api/products?locale=${lang}&populate=*&sort=publishedAt:asc`);
 
   const json = await res.json();
 

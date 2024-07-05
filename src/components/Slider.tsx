@@ -3,10 +3,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 import { FaFacebookF, FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
 
 import '@/styles/Slider.css';
 
@@ -90,34 +87,31 @@ export default function Slider({ lang }: { lang: Locale }) {
     return (
         <>
             <section className="home">
-                <video preload="auto" className={`video-slide ${activeSlide === 0 ? 'active' : ''}`} src="https://reliable-nurture-8d69d86d25.media.strapiapp.com/video1_954dd8376a.mp4" autoPlay muted loop></video>
-                <video preload="auto" className={`video-slide ${activeSlide === 1 ? 'active' : ''}`} src="https://reliable-nurture-8d69d86d25.media.strapiapp.com/video2_5a73a2810d.mp4" autoPlay muted loop></video>
-                <video preload="auto" className={`video-slide ${activeSlide === 2 ? 'active' : ''}`} src="https://reliable-nurture-8d69d86d25.media.strapiapp.com/video3_6cf3f16319.mp4" autoPlay muted loop></video>
+                <video preload="auto" className={`video-slide ${activeSlide === 0 ? 'active' : ''}`} src="https://innovative-confidence-c13676fd50.media.strapiapp.com/video1_e02032e322.mp4" autoPlay muted loop></video>
+                <video preload="auto" className={`video-slide ${activeSlide === 1 ? 'active' : ''}`} src="https://innovative-confidence-c13676fd50.media.strapiapp.com/video2_c2dd5f0219.mp4" autoPlay muted loop></video>
+                <video preload="auto" className={`video-slide ${activeSlide === 2 ? 'active' : ''}`} src="https://innovative-confidence-c13676fd50.media.strapiapp.com/video3_77541267fb.mp4" autoPlay muted loop></video>
 
                     <div className={`content ${activeSlide === 0 ? 'active' : ''}`}>
                         <h1 className="title">{dictionary.h1}</h1>
                         <p>{dictionary.d1}</p>
-                        <Link href="/about">{dictionary.b1}</Link>
+                        {/* <Link href={`/${lang}/about`}>{dictionary.b1}</Link> */}
                     </div>
                     <div className={`content ${activeSlide === 1 ? 'active' : ''}`}>
                         <h1 className="title">{dictionary.h2}</h1>
                         <p>{dictionary.d2}</p>
-                        <Link href="/product">{dictionary.b2}</Link>
+                        {/* <Link href={`/${lang}/products`}>{dictionary.b2}</Link> */}
                     </div>
                     <div className={`content ${activeSlide === 2 ? 'active' : ''}`}>
                         <h1 className="title">{dictionary.h3}</h1>
                         <p>{dictionary.d3}</p>
-                        <Link href="/catalog">{dictionary.b3}</Link>
+                        {/* <Link href={`/${lang}/catalog`}>{dictionary.b3}</Link> */}
                     </div>
 
 
                 <div className="media-icons">
-                    <a href="https://www.instagram.com"><FaInstagram /></a>
-                    <a href="https://www.twitter.com"><FaXTwitter /></a>
-                    <a href="https://www.whatsapp.com"><FaWhatsapp /></a>
-                    <a href="https://www.youtube.com"><FaYoutube /></a>
-                    <a href="https://www.linkedin.com"><FaLinkedin /></a>
-                    <a href="https://www.facebook.com"><FaFacebookF /></a>
+                    <a href="https://www.instagram.com/erisimkablo/"><FaInstagram /></a>
+                    <a href="https://www.linkedin.com/in/eri%C5%9Fim-kablo-a-%C5%9F-824864302/"><FaLinkedin /></a>
+                    <a href="https://www.facebook.com/profile.php?id=100068103998424"><FaFacebookF /></a>
                 </div>
 
 

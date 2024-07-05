@@ -9,7 +9,7 @@ import BackgroundEffects from "./BackgroundEffects";
 
 export default async function News({ lang }: { lang: Locale }) {
 
-  const res = await fetch(`http://reliable-nurture-8d69d86d25.strapiapp.com/api/news?locale=${lang}&populate=*&sort=publishedAt:asc`);
+  const res = await fetch(`http://innovative-confidence-c13676fd50.strapiapp.com/api/news?populate=*&sort=publishedAt:asc&locale=${lang}`);
 
   const json = await res.json();
 
@@ -22,7 +22,9 @@ export default async function News({ lang }: { lang: Locale }) {
         {haber.map((item: any, index: number) => (
           <div key={index} className="blog-box">
             <div className="blog-img">
+            <Link href={`/${lang}/news/${item.id}`}>
                 <img src={`${item.attributes.Image.data.attributes.url}`} alt=""/>
+              </Link>
             </div>
 
             <div className="blog-text">

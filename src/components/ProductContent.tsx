@@ -8,7 +8,7 @@ import Link from "next/link";
 export default async function ProductContent(
     { lang, product }: { lang: Locale, product: string }) {
 
-  const res = await fetch(`http://reliable-nurture-8d69d86d25.strapiapp.com/api/products/${product}?populate=*&locale=${lang}`);
+  const res = await fetch(`http://innovative-confidence-c13676fd50.strapiapp.com/api/products/${product}?populate=*&locale=${lang}`);
 
   const json = await res.json();
 
@@ -34,7 +34,7 @@ export default async function ProductContent(
                 <div>
                     <div className="inline-block align-bottom">
                         <button className=" bg-gray-700 opacity-75 hover:opacity-100 text-white hover:text-white rounded-full px-10 py-2 font-semibold">
-                            <Link href={"https://reliable-nurture-8d69d86d25.media.strapiapp.com/MXH_FR_9a29741084.pdf"}> Detail </Link>
+                            <Link href={"https://erisimkablo.org/MXH_FR_9a29741084.pdf"}> Detail </Link>
                         </button>
                     </div>
                 </div>

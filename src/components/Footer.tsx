@@ -18,14 +18,14 @@ export default async function Footer ({ lang }: { lang: Locale }) {
     <footer>
                 <div className="footer-r">
                     <div className="footer-des">
-                        <img src="https://reliable-nurture-8d69d86d25.media.strapiapp.com/Erisim_01_20a72c363e.png" className='logo' width={'550px'} height={'auto'} alt=""/>
+                        <img src="https://innovative-confidence-c13676fd50.media.strapiapp.com/erisim_logo_f9cce6c0d5.png" className='logo' width={'700px'} height={'auto'} alt=""/>
                         <p className='location'> {footer.address} </p>
                     </div>
                     <div className="footer-des">
                         <h3>{footer.contact} <div className="underline"><span></span></div></h3>
-                        <p className='email-id'>kablo@erişim.com.tr</p>
-                        <h4 className='communication'>F: +90 352 321 18 29</h4>
-                        <h4 className='communication'>T: +90 352 321 15 55</h4>
+                        <p className='email-id'>info@erisimkablo.com.tr</p>
+                        <h4 className='communication'>F: +90 (212) 549 27 23</h4>
+                        <h4 className='communication'>T: +90 (212) 549 27 81</h4>
                     </div>
                     <div className="footer-des">
                         <h3>{footer.links} <div className="underline"><span></span></div></h3>
@@ -43,11 +43,9 @@ export default async function Footer ({ lang }: { lang: Locale }) {
                         <h3>{footer.social} <div className="underline"><span></span></div></h3>
                         <div className="social-icons">
                             <Link href="#" className='fc'><i><FaFacebookF /></i></Link>
-                            <Link href="#" className='tw'><i><FaXTwitter /></i></Link>
                             <Link href="#" className='wp'><i ><FaWhatsapp /></i></Link>
                             <Link href="#" className='li'><i ><FaLinkedin /></i></Link>
                             <Link href="#" className='in'><i ><FaInstagram /></i></Link>
-                            <Link href="#" className='in'><i ><FaYoutube /></i></Link>
                         </div>
                     </div>
                 </div>
